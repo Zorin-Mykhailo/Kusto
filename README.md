@@ -8,7 +8,7 @@ flowchart TD
         OneS_DB[(DB)]
         end
 
-        subgraph GDS["Ñåðâåð ãëîáàëüíèõ äàíèõ"]
+        subgraph GDS["Сервер глобальних даних"]
         KGDS_DB[(DB)]
         end
     end
