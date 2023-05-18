@@ -1,6 +1,6 @@
 ```mermaid
 ---
-title: Node
+title: Схема взаємодії систем Кусто Агро
 ---
 flowchart TD
     subgraph PS ["Primary system"]
@@ -54,11 +54,11 @@ flowchart TD
 
 | Що буде передаватись між `GDS` та | `ELMA` | `APS Tender` | `Cropio` |
 | --- | :---: | :---: | :---: |
-| Робітник | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
-| Посада ||||
-| Підприємство ||||
-| Стаття б'юджету ||||
-| Группа номенклатури ||||
-| Номенклатура ||||
+| Робітник | :heavy_check_mark: |  |  |
+| Посада | :heavy_check_mark: |||
+| Підприємство | :heavy_check_mark: |||
+| Стаття б'юджету | :heavy_check_mark: |||
+| Группа номенклатури | :heavy_check_mark: |||
+| Номенклатура | :heavy_check_mark: |||
 
 
