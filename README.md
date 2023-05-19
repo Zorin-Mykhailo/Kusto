@@ -1,3 +1,5 @@
+# [Сервер глобальних даних](Kusto/Documents/20230519__GlobalDataServer.md)
+
 ```mermaid
 ---
 title: Схема взаємодії систем Кусто Агро
