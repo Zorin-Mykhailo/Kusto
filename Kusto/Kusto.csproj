@@ -7,4 +7,12 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="Documents\2313902__ContractorsCheck\Ojb__NmcCategory.md" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Include="Documents\2313902__ContractorsCheck\Ojb__NmcCategory.md" />
+  </ItemGroup>
+
 </Project>
