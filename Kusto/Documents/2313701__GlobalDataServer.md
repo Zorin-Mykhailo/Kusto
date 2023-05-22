@@ -12,7 +12,7 @@
 
 ```mermaid
 ---
-title: Node
+title: KUSTO Global Data Server
 ---
 flowchart TD
     subgraph PS ["Primary system"]
