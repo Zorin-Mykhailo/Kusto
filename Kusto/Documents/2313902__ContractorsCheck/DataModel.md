@@ -10,6 +10,9 @@ erDiagram
     EActualilty Actuality "Актуальнось"
     String Remarks "Примечания"
     
+    InfoOfValidation ValidationInfo "Валидация"
+    InfoOfDuplicate DuplicateInfo "Информация о дубликате"
+    
     Nmc Parent "Родительский объект"
     Boolean IsGroup "Является группой"
     
@@ -18,12 +21,6 @@ erDiagram
     DateTime CreationDate "Дата создания"
     User ModificationUser "Автор изменения"
     DateTime ModificationData "Дата модификации"
-    
-    
-    InfoOfValidation ValidationInfo "Валидация"
-    
-    
-    InfoOfDuplicate DuplicateInfo "Информация о дубликате"
   }
 ```
 
