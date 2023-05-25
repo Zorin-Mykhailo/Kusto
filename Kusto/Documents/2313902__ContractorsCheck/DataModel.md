@@ -13,7 +13,10 @@ erDiagram
     Nmc Parent "Родительский объект"
     Boolean IsGroup "Является группой"
     
+    GUID GlobalID "Глобальный ID"
+    User CreationUser "Автор создания"
     DateTime CreationDate "Дата создания"
+    User ModificationUser "Автор изменения"
     DateTime ModificationData "Дата модификации"
     
     ValidationInfo Validation "Результат валидации"
