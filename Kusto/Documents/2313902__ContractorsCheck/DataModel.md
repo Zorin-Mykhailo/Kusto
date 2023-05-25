@@ -18,37 +18,38 @@ erDiagram
     DateTime CreationDate "Дата создания"
     User ModificationUser "Автор изменения"
     DateTime ModificationData "Дата модификации"
-    
-    ValidationInfo Validation "Результат валидации"
+    EValidationResult ValidationResult "Валидный ли объект"
+    InfoOfValidation ValidationInfo "Валидация"
   }
 ```
 
 ```mermaid
 erDiagram
-  ValidationInfo {
-    DateTime TimeStamp "Время заключения"
-    Boolean IsCorrectData "Содержит корректные данные"
-    String DataObjections ""
-    Boolean IsDuplicate "Является ли дубликатом"
-    Duplicate DuplicateInfo "Информация о дубликате"
-    Boolean IsValie ""
-    String Remarks "Примечания"
-    
-  }
-```
-
-```mermaid
-erDiagram
-  EValidation {
-    Int32_00 Valid "Валидировано"
-    Int32_10 WithObjections "С возражениями"
+  EValidationResult {
+    Int32_00 ValidationNotActual "Валидация не актуальна / не проводилась"
+    Int32_10 Valid "Валидно"
+    Int32_15 ValidWithSubjections "Валидно c замечаниями"
     Int32_20 Invalid "Не валидно"
   }
 ```
 
+
+
 ```mermaid
 erDiagram
-  Duplicate {
+  InfoOfValidation {
+    DateTime TimeStamp "Время заключения"
+    Boolean IsDataCorrect "Содержит корректные данные"
+    String DataObjections "Замечания по данным"
+    Boolean IsDuplicate "Является ли дубликатом"
+    InfoOfDuplicate DuplicateInfo "Информация о дубликате"
+    String Remarks "Примечания"
+  }
+```
+
+```mermaid
+erDiagram
+  InfoOfDuplicate {
     Int32 DuplicateNumber "Номер дубликата"
     Nmc DuplicateOf
     
